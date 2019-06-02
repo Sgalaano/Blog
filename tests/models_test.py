@@ -5,7 +5,7 @@ from app import db
 class UserModelTest(unittest.TestCase):
 
     def setUp(self):
-        self.new_user = User(password = 'banana')
+        self.new_user = User(password = 'galaano')
 
     def test_password_setter(self):
         self.assertTrue(self.new_user.password_hash is not None)
@@ -15,11 +15,11 @@ class UserModelTest(unittest.TestCase):
             self.new_user.password
 
     def test_password_verification(self):
-        self.assertTrue(self.new_user.verify_password('banana'))
+        self.assertTrue(self.new_user.verify_password('galaano'))
 
 class PostTest(unittest.TestCase):
     def setUp(self):
-        self.user_James = User(id=1,username = 'James',password = 'potato', email = 'james@ms.com')
+        self.user_James = User(id=1,username = 'galaano',password = 'galaano', email = 'sgalaano@gmail.com')
         self.new_post = Post(id=5,post='Blog Post for days',posted="2018-09-12")
 
     def tearDown(self):
