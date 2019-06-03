@@ -1,4 +1,4 @@
-SECRET_KEY="Flasksecret."
+SECRET_KEY="Galaano1998"
 
 MAIL_USERNAME="rayr30667@gmail.com"
 MAIL_PASSWORD="sommoire"
