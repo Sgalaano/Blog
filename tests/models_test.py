@@ -19,7 +19,7 @@ class UserModelTest(unittest.TestCase):
 
 class PostTest(unittest.TestCase):
     def setUp(self):
-        self.user_James = User(id=1,username = 'galaano',password = 'galaano', email = 'sgalaano@gmail.com')
+        self.user_Galaano = User(id=1,username = 'galaano',password = 'galaano', email = 'sgalaano@gmail.com')
         self.new_post = Post(id=5,post='Blog Post for days',posted="2018-09-12")
 
     def tearDown(self):
